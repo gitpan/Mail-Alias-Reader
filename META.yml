@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Mail-Alias-Reader
-version:            0.01
+version:            0.02
 abstract:           Parse aliases(5) and ~/.forward declarations
 author:
     - Erin Schönhals (erin@cpanel.net)
