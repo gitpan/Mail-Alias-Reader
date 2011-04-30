@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Mail-Alias-Reader
-version:            0.02
+version:            0.03
 abstract:           Parse aliases(5) and ~/.forward declarations
 author:
     - Erin Schönhals (erin@cpanel.net)
@@ -11,7 +11,8 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Test::Simple:  0.44
+    Test::Exception:  0
+    Test::More:       0
 no_index:
     directory:
         - t
